@@ -6,6 +6,8 @@ on:
     branches:
       - master
 
+  workflow_dispatch
+
 jobs:
   linter:
     name: linter-check
